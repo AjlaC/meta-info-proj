@@ -5,6 +5,7 @@
     <title>[ajlac] Meta Visualization (InfoViz 2018)</title>
     <link rel="stylesheet" href="style/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -55,7 +56,14 @@
 
 <!----------------------- FIRST PAGE -------------------------->
     <div id="page-1" class="page"> 
-         <h2 style="text-align: center; margin-top: 2em; padding: 0.5em; color: white; background-color: rgba(92, 92, 135, 0.5);">Glyphs Visualization</h2>
+         <h2 style="font-size: 40px; text-align: center; margin-top: 1em;  color: white;">Glyphs Visualization</h2>
+        <div class="wrap text-center" id="toolbar">
+          <div class="btn-group" id="funcc">
+            <button type="button" class="btn btn-primary functions">Group</button>
+            <button type="button" class="btn btn-primary functions">Individual</button>
+            <button type="button" class="btn btn-primary functions">Annotations</button>
+          </div>
+        </div>
      
         <div class="simulate" style="  background-color: #222;">
             
@@ -125,7 +133,7 @@
 
  <!------------------------ SECOND PAGE -------------------------->   
     <div id="page-2" class="page">  
-        <h2 style="text-align: center; margin-top: 2em; padding: 0.5em; color: white; background-color: rgba(92, 92, 135, 0.5);">Affected Target Visualization</h2>
+        <h2 style="font-size: 40px; text-align: center; margin-top: 1em;  color: white;">Affected Target Visualization</h2>
         <hr id="sepLine" />
         <div class="simulate">
             <div class="box box1 regular">
@@ -164,7 +172,7 @@
 
 <!------------------------- THIRD PAGE ---------------------------->
     <div id="page-3" class="page"> 
-      <h2 style="text-align: center; margin-top: 2em; padding: 0.5em; color: white; background-color: rgba(92, 92, 135, 0.5);">Types of attacks Visualization</h2>
+      <h2 style="font-size: 40px; text-align: center; margin-top: 1em;  color: white;">Types of attacks Visualization</h2>
         <div class="simulate">
 
         <div class="box regular">
@@ -200,7 +208,7 @@
 
 <!------------------------- FOURTH PAGE ---------------------------->
     <div id="page-4" class="page"> 
-       <h2 style="text-align: center; margin-top: 2em; padding: 0.5em; color: white; background-color: rgba(92, 92, 135, 0.5);">US Map Visualization</h2>
+       <h2 style="font-size: 40px; text-align: center; margin-top: 1em;  color: white;">US Map Visualization</h2>
         <div class="simulate">
             
 <div class="" id="map-box">
@@ -237,6 +245,7 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://infovis.sjolie.se/js/dimple.v2.3.0.js"></script>
     <script src="script/venn.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="script/script.js"></script>
     <script src="script/index.js"></script>
 

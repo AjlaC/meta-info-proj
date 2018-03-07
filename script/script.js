@@ -59,6 +59,7 @@ function drawTheftsPlot() {
     lineChart.addSeries("Type", dimple.plot.line);
 
     lineChart.addLegend(0, 10, 700, 200, "right");
+    
 
     lineChart.draw(750);
   });

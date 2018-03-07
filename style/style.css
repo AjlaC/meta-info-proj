@@ -458,23 +458,52 @@ ul {
     background-color:  #234790;
 }
 
+
+.functions{
+  background-color: rgb(92, 92, 135) !important; 
+  border: none !important;
+  margin: 0.5em;
+  text-align: center;
+  display: inline-block;
+}
+
+#funcc{
+   text-align: center;
+    margin: auto;
+}
+
+.btn-group a {
+    display:inline-block;
+}
+
+#toolbar {
+    width: 100%;
+
+    margin-bottom: 1em;
+ 
+}
+
+#toolbar .wrap {
+}
+
+
 #page-0{
   color: white;
   background-color: #5c5c87;
 }
 
 #page-1 {
-
+background-color: rgba(92, 92, 135, 0.6);
 }
 #page-2 {
-
+background-color: rgba(92, 92, 135, 0.6);
 }
 #page-3 {
-
+background-color: rgba(92, 92, 135, 0.6);
 }
 
 #page-4{
-
+background-color: rgba(92, 92, 135, 0.6);
 }
 .navvv {
     color:#white !important;
@@ -517,3 +546,8 @@ li a:hover {
 #fixedbar ul li.active a, #fixedbar ul li:hover > a{
     color: #9696d4; //do what you want to be
 }
+
+
+
+
+
