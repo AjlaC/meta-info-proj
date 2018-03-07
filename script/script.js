@@ -2,6 +2,15 @@ var lineChart, test;
 var svgLine = dimple.newSvg("#theftsContainer", 590, 410);
 var timesec = 3000;
 
+$(function(){
+    $('#fixednav ul li a').click(function(){
+        $('#fixednav ul').find('li.active').removeClass('active');
+        $(this).parent().addClass('active');
+
+        return false; //return false to aviod scroll top.
+    });
+});
+
 $('#totalnr').animateNumber({ number: 977 }, timesec);
 $('#theftnr').animateNumber({ number: 541 }, timesec*0.554);
 $('#accessnr').animateNumber({ number: 154 }, timesec*0.4);

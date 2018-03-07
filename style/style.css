@@ -439,6 +439,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 10em;
     overflow: hidden;
     background-color: #333;
 }
@@ -458,6 +459,7 @@ ul {
 
 #page-0{
   color: white;
+  background-color: #9696d4;
 }
 
 #page-1 {
@@ -499,4 +501,18 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#fixedbar ul li.active, #fixedbar ul li:hover{
+    background:black; //do what you want to be
+}
+
+/* To style just "a" element */
+
+#fixedbar ul li.active a, #fixedbar ul li:hover > a{
+    color: #9696d4; //do what you want to be
 }
