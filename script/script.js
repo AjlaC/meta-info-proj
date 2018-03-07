@@ -2,6 +2,18 @@ var lineChart, test;
 var svgLine = dimple.newSvg("#theftsContainer", 590, 410);
 var timesec = 3000;
 
+function showAnnotations()
+{
+  d3.selectAll(".annotation").style("display", "block");
+}
+
+function hideAnnotations()
+{
+  d3.selectAll(".annotation").style("display", "none");
+}
+
+
+
 $(function(){
     $('#fixednav ul li a').click(function(){
         $('#fixednav ul').find('li.active').removeClass('active');
@@ -59,7 +71,7 @@ function drawTheftsPlot() {
     lineChart.addSeries("Type", dimple.plot.line);
 
     lineChart.addLegend(0, 10, 700, 200, "right");
-    
+
 
     lineChart.draw(750);
   });

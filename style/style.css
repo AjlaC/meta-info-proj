@@ -551,3 +551,18 @@ li a:hover {
 
 
 
+/********* ANNOTATIONS *********/
+.annotation {
+  position: absolute;
+   border: dashed 1px;
+  border-radius: 3px;
+}
+
+div.annotation {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.annotation_container {
+  position: relative;
+}
