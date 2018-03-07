@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x:hidden;
+    position:relative;
+    background: #222;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(46, 46, 46);
+    padding: 0 ;
+    line-height: 1.5;
+}
+nav{
+    position:absolute;
+    top:0; left:0;
+    height:30px;
+}
+.wrapper {
+    height: 100%;
+    background: #263729;
+}
+.page {
+    float:left;
+background-color: rgb(46, 46, 46);
+    min-height: 100%;
+    padding-top: 30px;
+}
+#page-1 {
+
+}
+#page-2 {
+
+}
+#page-3 {
+
+}
+a {
+    color:#FFF;
+}
+a.selected{
+    color: red;
+}
+
+
+.simulate{
+    height:2000px;
+}
